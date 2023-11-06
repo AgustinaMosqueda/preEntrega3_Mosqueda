@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos Virtual</title>
+</head>
+<body>
+
+    <main>
+        <!-- <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-left">
+                <p class="class-number">Clase 9</p>
+                <h1 class="class-title">
+                    Eventos
+                </h1>
+                <p class="course-name">Curso de JavaScript</p>
+            </div>
+            <div class="hero-right">
+                <img src="./img/logo-js.png" alt="Logo de JavaScript" class="logo-js">
+            </div>
+        </section> -->
+        
+        <section id="contenido" class="contenido prueba">
+
+            <h1 id="titulo">Turnos Virtual</h1>
+
+            <!-- <div class="btn-group">
+
+                <button id="alerta" class="btn">Alerta</button>
+
+                <button id="consola" class="btn">Consola</button>
+
+                <button id="color-mode" class="btn">Cambiar a Dark Mode</button>
+
+            </div> -->
+            
+            <div class="form-group">
+                <ul class="lista">
+                    <h2>Igrese el nombre del paciente</h2>
+                    <form action="" id="alerta-form" class="form">
+                        <input type="text" id="alerta-input" class="form-input">
+                    </form>
+                </ul>
+                
+                <ul class="lista lista-abajo">
+                    <h2>Especialidad</h2>
+                    <form action="" id="abajo-form" class="form">
+                        <input type="text" id="abajo-input" class="form-input">
+                    </form>
+                    <p id="abajo"></p>
+                </ul>
+
+                <ul class="lista" id="agregar">
+                    <h2>Fecha deseada</h2>
+                    <form action="" id="agregar-form" class="form">
+                        <input type="text" id="agregar-input" class="form-input">
+                    </form>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button onclick="agregar()">Solicitar Turno</button>
+                <button class="btn-deleteAll" onclick="resetearResultados()">Borrar Datos </button>
+            </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
